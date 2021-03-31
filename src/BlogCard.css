@@ -1,0 +1,34 @@
+.individualblogcard > img{
+    /* object-fit: contain; */
+    object-fit: contain;
+    width: 100%;
+    border-radius:8px 8px 0px 0px;
+}
+.individualblogcard{
+    width: 200px;
+    height: auto;
+    border: 1px solid #00bfb2;
+    border-radius: 8px;
+    margin-right: 30px;
+    margin-bottom: 10px;
+    /* display: flex;
+    flex-direction: column; */
+    /* position: relative; */
+}
+
+.individualblogcard-text{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.individualblogcard-text > button{
+    color: white;
+    padding: 8px 16px;
+    background: #00bfb2;
+    border: none;
+    border-radius: 4px;
+   cursor: pointer;
+   margin: 10px 0px;
+}

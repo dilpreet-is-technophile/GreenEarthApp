@@ -1,0 +1,22 @@
+
+.blogcomponent{
+    margin: 0px auto;
+}
+/* .blogcomponent >h2{
+    margin: auto 0px;
+} */
+.blogform{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 0px auto;
+}
+
+.blogform> label,textarea{
+    margin: 20px;
+}
+
+.blogform > button{
+    width: 80px;
+    margin: 0px auto;
+}
